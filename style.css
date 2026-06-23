@@ -24,29 +24,30 @@ main{
 }
 
 nav{
-    padding:20px 30px;
+    padding:15px 25px;
     display:flex;
     justify-content:space-between;
     align-items:center;
     font-style: italic;
     font-weight: 100;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
 }
 
 nav button{
-    padding:30px 35px;
+    padding:10px 18px;
     border:none;
     border-radius:5px;
     cursor:pointer;
-    font-size: 35px;
+    font-size: 15px;
     font-style: italic;
 }
 
 .board{
     flex:1;
     display:flex;
-    gap:25px;
-    padding:25px;
+    gap:20px;
+    padding:20px;
 }
 
 .task-column{
@@ -68,42 +69,41 @@ nav button{
 .heading{
     display: flex;
     justify-content:space-between;
-    font-size: 50px;
+    font-size: 20px;
     font-weight:600;
 }
 
 .heading .right{
     background:#90917a;
     color:rgb(49, 26, 142);
-    padding:8px 20px;
+    padding:4px 12px;
     border-radius:100px;
-    font-size:40px;
+    font-size:14px;
 }
 
 .task{
     background:rgb(9, 118, 107);
-    padding:20px;
+    padding:15px;
     border-radius:10px;
     display:flex;
     flex-direction:column;
-    gap:10px;
+    gap:8px;
     cursor:grab;
 }
 
-
 .task button{
     align-self:flex-end;
-    padding:15px 25px;
+    padding:6px 14px;
     border:none;
-    border-radius:35px;
+    border-radius:20px;
     background:red;
     color:rgb(250, 244, 244);
     cursor:pointer;
-    font-size:32px;
+    font-size:13px;
 }
 
 .task h2{
-    font-size:64px;
+    font-size:20px;
     margin-bottom:5px;
     font-palette: inherit;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -139,38 +139,37 @@ nav button{
     position:relative;
     z-index:50;
     background:#005d61;
-    padding: 40px 50px;
-    border-radius:30px;
+    padding: 25px 30px;
+    border-radius:20px;
 
     width:90%;
-    max-width:1800px;
-    height:85vh;
-    max-height:900px;
+    max-width:500px;
+    height:auto;
+    max-height:80vh;
     overflow-y:auto;
 
     display:flex;
     flex-direction:column;
-    gap:20px;
-    font-size: 35px;
+    gap:15px;
+    font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .center input,
 .center textarea{
-    padding:16px;
-    font-size:45px;
+    padding:10px;
+    font-size:15px;
     font-style: italic;
 }
 
 .center textarea{
-    min-height:400px;
+    min-height:120px;
     flex:1;
-    font-size: 45px;
-    font-display: auto;
+    font-size: 15px;
 }
 
 .center button{
-    padding: 50px;
+    padding: 12px;
     cursor:pointer;
-    font-size: 35px;
+    font-size: 15px;
 }
